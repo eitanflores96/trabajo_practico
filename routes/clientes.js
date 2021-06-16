@@ -7,7 +7,7 @@ router.route('/clientes')
     .post(clienteController.register)
 
 router.route('/clientes/:id')
-    .put(clienteController.updateUser)
+    .patch(clienteController.updateUser)
 //router.get('/refresh_token', userController.refreshToken)
 //router.post('/login', userController.login)
 //router.get('/logout', userController.logout)

@@ -7,7 +7,7 @@ router.route('/marcas')
     .post(marcasController.insertBrand)
 
 router.route('/marcas/:id')
-    .put(marcasController.updateBrand)
+    .patch(marcasController.updateBrand)
 //router.get('/refresh_token', userController.refreshToken)
 //router.post('/login', userController.login)
 //router.get('/logout', userController.logout)
